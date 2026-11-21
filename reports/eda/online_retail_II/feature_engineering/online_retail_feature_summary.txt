@@ -1,0 +1,116 @@
+MARKETMIND AI
+ONLINE RETAIL II FEATURE ENGINEERING REPORT
+============================================================
+Excel worksheet: Year 2010-2011
+Original rows: 541910
+Valid sales rows: 397885
+Transaction feature columns: 26
+Invoice records: 18532
+Customer records: 4338
+Product records: 3665
+
+TRANSACTION FEATURE COLUMNS:
+Invoice
+StockCode
+Description
+Quantity
+InvoiceDate
+Price
+Customer ID
+Country
+LineTotal
+IsCancelledInvoice
+IsReturnLine
+IsValidSale
+Year
+Month
+Day
+Quarter
+Hour
+DayOfWeek
+IsWeekend
+MonthSin
+MonthCos
+InvoiceTotal
+InvoiceQuantity
+InvoiceItemCount
+InvoiceUniqueProducts
+InvoiceUniqueCustomers
+
+CUSTOMER RFM FEATURES:
+Customer ID
+LastPurchase
+FirstPurchase
+Frequency
+Monetary
+TotalQuantity
+UniqueProducts
+UniqueCountries
+Recency
+CustomerTenureDays
+AverageOrderValue
+AverageQuantityPerOrder
+
+PRODUCT FEATURES:
+StockCode
+ProductDescription
+TotalRevenue
+TotalUnitsSold
+TotalOrders
+UniqueCustomers
+AverageUnitPrice
+CountriesSold
+
+OUTPUT DIRECTORY:
+C:\Users\Lenovo\OneDrive\Desktop\MARKETMIND-AI-FINAL\datasets\online_retail_II\processed
+
+MISSING VALUES IN TRANSACTION DATA:
+Invoice                        0
+StockCode                      0
+Description                    0
+Quantity                       0
+InvoiceDate                    0
+Price                          0
+Customer ID               135080
+Country                        0
+LineTotal                      0
+IsCancelledInvoice             0
+IsReturnLine                   0
+IsValidSale                    0
+Year                           0
+Month                          0
+Day                            0
+Quarter                        0
+Hour                           0
+DayOfWeek                      0
+IsWeekend                      0
+MonthSin                       0
+MonthCos                       0
+InvoiceTotal              143992
+InvoiceQuantity           143992
+InvoiceItemCount          143992
+InvoiceUniqueProducts     143992
+InvoiceUniqueCustomers    143992
+dtype: int64
+
+CUSTOMER RFM PREVIEW:
+   Customer ID        LastPurchase       FirstPurchase  ...  CustomerTenureDays  AverageOrderValue  AverageQuantityPerOrder
+0        12346 2011-01-18 10:01:00 2011-01-18 10:01:00  ...                   0       77183.600000             74215.000000
+1        12347 2011-12-07 15:52:00 2010-12-07 14:57:00  ...                 365         615.714286               351.142857
+2        12348 2011-09-25 13:13:00 2010-12-16 19:09:00  ...                 282         449.310000               585.250000
+3        12349 2011-11-21 09:51:00 2011-11-21 09:51:00  ...                   0        1757.550000               631.000000
+4        12350 2011-02-02 16:01:00 2011-02-02 16:01:00  ...                   0         334.400000               197.000000
+
+[5 rows x 12 columns]
+
+PRODUCT PREVIEW:
+  StockCode           ProductDescription  TotalRevenue  ...  UniqueCustomers  AverageUnitPrice  CountriesSold
+0     10002   INFLATABLE POLITICAL GLOBE        699.55  ...               40          0.850000              7
+1     10080     GROOVY CACTUS INFLATABLE        114.41  ...               19          0.411905              1
+2     10120                 DOGGY RUBBER         40.53  ...               25          0.210000              2
+3    10123C         HEARTS WRAPPING TAPE          3.25  ...                3          0.650000              1
+4    10124A  SPOTS ON RED BOOKCOVER TAPE          6.72  ...                5          0.420000              1
+
+[5 rows x 8 columns]
+
+FEATURE ENGINEERING COMPLETED SUCCESSFULLY.

@@ -1,0 +1,22 @@
+DATA CLEANING REPORT: Supplier_Sales
+=======================================================
+Original rows: 352419
+Original columns: 9
+Final rows: 352419
+Final columns: 9
+Duplicate rows removed: 0
+Missing cells remaining: 225
+
+MISSING VALUES BY COLUMN:
+YEAR                  0
+MONTH                 0
+SUPPLIER            217
+ITEM CODE             0
+ITEM DESCRIPTION      0
+ITEM TYPE             1
+RETAIL SALES          7
+RETAIL TRANSFERS      0
+WAREHOUSE SALES       0
+
+FINAL COLUMN NAMES:
+['YEAR', 'MONTH', 'SUPPLIER', 'ITEM CODE', 'ITEM DESCRIPTION', 'ITEM TYPE', 'RETAIL SALES', 'RETAIL TRANSFERS', 'WAREHOUSE SALES']

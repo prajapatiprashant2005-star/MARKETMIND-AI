@@ -1,0 +1,30 @@
+DATASET: Supplier Sales
+============================================================
+Total rows: 352419
+Total columns: 9
+Numerical columns: 2
+Categorical columns: 7
+Missing cells: 225
+Duplicate rows: 0
+
+COLUMN TYPES:
+YEAR                int64
+MONTH               int64
+SUPPLIER              str
+ITEM CODE             str
+ITEM DESCRIPTION      str
+ITEM TYPE             str
+RETAIL SALES          str
+RETAIL TRANSFERS      str
+WAREHOUSE SALES       str
+
+MISSING VALUES:
+YEAR                  0
+MONTH                 0
+SUPPLIER            217
+ITEM CODE             0
+ITEM DESCRIPTION      0
+ITEM TYPE             1
+RETAIL SALES          7
+RETAIL TRANSFERS      0
+WAREHOUSE SALES       0

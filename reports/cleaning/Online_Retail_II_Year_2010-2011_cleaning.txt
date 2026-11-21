@@ -1,0 +1,21 @@
+DATA CLEANING REPORT: Online_Retail_II_Year 2010-2011
+=======================================================
+Original rows: 541910
+Original columns: 8
+Final rows: 536642
+Final columns: 8
+Duplicate rows removed: 5268
+Missing cells remaining: 136491
+
+MISSING VALUES BY COLUMN:
+Invoice             0
+StockCode           0
+Description      1454
+Quantity            0
+InvoiceDate         0
+Price               0
+Customer ID    135037
+Country             0
+
+FINAL COLUMN NAMES:
+['Invoice', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'Price', 'Customer ID', 'Country']

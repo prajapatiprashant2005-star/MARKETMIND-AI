@@ -1,0 +1,28 @@
+DATASET: Online Retail II - Year 2010-2011
+============================================================
+Total rows: 536642
+Total columns: 8
+Numerical columns: 3
+Categorical columns: 4
+Missing cells: 136491
+Duplicate rows: 0
+
+COLUMN TYPES:
+Invoice                object
+StockCode              object
+Description            object
+Quantity                int64
+InvoiceDate    datetime64[us]
+Price                 float64
+Customer ID           float64
+Country                   str
+
+MISSING VALUES:
+Invoice             0
+StockCode           0
+Description      1454
+Quantity            0
+InvoiceDate         0
+Price               0
+Customer ID    135037
+Country             0

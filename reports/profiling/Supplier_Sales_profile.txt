@@ -1,0 +1,64 @@
+=================================================================
+DATASET PROFILE: Supplier_Sales
+=================================================================
+
+Total rows: 352419
+Total columns: 9
+
+COLUMN NAMES
+YEAR
+MONTH
+SUPPLIER
+ITEM CODE
+ITEM DESCRIPTION
+ITEM TYPE
+RETAIL SALES
+RETAIL TRANSFERS
+WAREHOUSE SALES
+
+DATA TYPES
+YEAR                int64
+MONTH               int64
+SUPPLIER              str
+ITEM CODE             str
+ITEM DESCRIPTION      str
+ITEM TYPE             str
+RETAIL SALES          str
+RETAIL TRANSFERS      str
+WAREHOUSE SALES       str
+
+MISSING VALUES
+YEAR                  0
+MONTH                 0
+SUPPLIER            217
+ITEM CODE             0
+ITEM DESCRIPTION      0
+ITEM TYPE             1
+RETAIL SALES          7
+RETAIL TRANSFERS      0
+WAREHOUSE SALES       0
+Total missing cells: 225
+
+DUPLICATE RECORDS
+Total duplicates: 0
+
+NUMERICAL STATISTICS
+                YEAR          MONTH
+count  352419.000000  352419.000000
+mean     2019.399192       6.560444
+std         2.713888       3.278828
+min      2017.000000       1.000000
+25%      2017.000000       4.000000
+50%      2019.000000       7.000000
+75%      2020.000000       9.000000
+max      2026.000000      12.000000
+
+CATEGORICAL INFORMATION
+                                 SUPPLIER ITEM CODE          ITEM DESCRIPTION ITEM TYPE RETAIL SALES RETAIL TRANSFERS WAREHOUSE SALES
+count                              352202    352419                    352419    352418       352412           352419          352419
+unique                                545     42689                     44312         8        11106             2567            5509
+top     REPUBLIC NATIONAL DISTRIBUTING CO    344326  BURGANS ALBARINO - 750ML      WINE         0.00             0.00            0.00
+freq                                21007        28                        48    210840       142884           216951          109794
+
+MEMORY USAGE
+145.98 MB

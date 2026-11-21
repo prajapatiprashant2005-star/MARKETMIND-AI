@@ -1,0 +1,61 @@
+=================================================================
+DATASET PROFILE: Online_Retail_II_Year 2009-2010
+=================================================================
+
+Total rows: 525461
+Total columns: 8
+
+COLUMN NAMES
+Invoice
+StockCode
+Description
+Quantity
+InvoiceDate
+Price
+Customer ID
+Country
+
+DATA TYPES
+Invoice                object
+StockCode              object
+Description            object
+Quantity                int64
+InvoiceDate    datetime64[us]
+Price                 float64
+Customer ID           float64
+Country                   str
+
+MISSING VALUES
+Invoice             0
+StockCode           0
+Description      2928
+Quantity            0
+InvoiceDate         0
+Price               0
+Customer ID    107927
+Country             0
+Total missing cells: 110855
+
+DUPLICATE RECORDS
+Total duplicates: 6865
+
+NUMERICAL STATISTICS
+            Quantity          Price    Customer ID
+count  525461.000000  525461.000000  417534.000000
+mean       10.337667       4.688834   15360.645478
+std       107.424110     146.126914    1680.811316
+min     -9600.000000  -53594.360000   12346.000000
+25%         1.000000       1.250000   13983.000000
+50%         3.000000       2.100000   15311.000000
+75%        10.000000       4.210000   16799.000000
+max     19152.000000   25111.090000   18287.000000
+
+CATEGORICAL INFORMATION
+        Invoice StockCode                         Description         Country
+count    525461    525461                              522533          525461
+unique    28816      4632                                4681              40
+top      537434    85123A  WHITE HANGING HEART T-LIGHT HOLDER  United Kingdom
+freq        675      3516                                3549          485852
+
+MEMORY USAGE
+122.87 MB

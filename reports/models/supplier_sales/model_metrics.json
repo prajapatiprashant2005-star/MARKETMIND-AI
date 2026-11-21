@@ -1,0 +1,9 @@
+{
+    "model": "Random Forest Regressor",
+    "target": "RETAIL SALES",
+    "training_records": 6176,
+    "testing_records": 1803,
+    "MAE": 31.885241344580287,
+    "RMSE": 96.66672145510236,
+    "R2": 0.9783558724203822
+}

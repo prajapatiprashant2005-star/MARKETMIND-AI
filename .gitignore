@@ -1,0 +1,21 @@
+
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Temporary files
+.pytest_cache/
+.ipynb_checkpoints/
+*.log
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Broken and backup applications
+app.py/app_backup.py
+app.py/app_broken_backup.py
+app.py/_market_app.py
