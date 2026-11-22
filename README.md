@@ -1,5 +1,18 @@
 
 # MARKETMIND AI
+## 🚀 MARKETMIND AI — LIVE APPLICATION
+
+🌐 **[CLICK HERE TO OPEN MARKETMIND AI LIVE DEMO](https://marketmind-ai-cymxnneezyxmpdu7vsfr3.streamlit.app)**
+
+💻 **[VIEW SOURCE CODE ON GITHUB](https://github.com/prajapatiprashant2005-star/MARKETMIND-AI)**
+
+**Project:** Real Market Sales Analysis Using Machine Learning
+
+**AI Features:** Supplier Sales Prediction | Customer Segmentation | Model Performance
+
+---
+
+
 ## Real Market Sales Analysis Using Machine Learning
 
 ### Project Overview
